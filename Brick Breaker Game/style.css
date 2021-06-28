@@ -1,0 +1,33 @@
+* { padding: 0; margin: 0; }
+canvas { background: rgba(255, 255, 255, 0.082); display: block; margin: 0 auto; 
+border: 2px solid rgba(255, 255, 255, 0.486);
+border-radius: 10px;}
+
+canvas:hover{
+    cursor: none;
+}
+.btn{
+    position: absolute; top: 50%;left: 50% 
+}
+.hide{
+    display: none;
+}
+
+#pause{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-size: 15px;
+    background: transparent;
+    color: #3366cc;
+    padding: 5px;
+}
+button:hover{
+    scale: 1.1;
+}
+.controls{
+    width: 100px;
+    height: 40px;
+    background-color: #3366cc;
+
+}
