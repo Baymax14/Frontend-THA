@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(114, 111, 111)    ;
+}
+
+
+.all{
+    width: 50px;
+    height: 70px;
+    background-color: rgb(150, 108, 108);
+    border: 2px solid;
+}
+.all:hover{
+    opacity: 0.9;
+}
+
+.boxclicked{
+    background-color: rgb(32, 27, 102);
+}
+.container{
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto auto;
+    justify-content: center;
+    height: 30%;
+    align-content: center;
+}
+
+.numbers{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#booked{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 48%;
+    top: 25px;
+}
+#remaining{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 59%;
+    top: 25px;
+}

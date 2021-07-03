@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flip The card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="all">
+      <div class="heading">
+
+        <h1>Flip and match</h1>
+      </div>
+      <div class="container">
+        <div class="flip-card">
+          <div class="flip-card-inner" onclick="flip(event)" data-click="bulba" >
+            <div class="flip-card-front">
+              
+            </div>
+            <div class="flip-card-back" >
+              <img
+              src="1st.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="bulba" >
+            <div class="flip-card-back">
+              <img
+              src="1st.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner" onclick="flip(event)" data-click="charm">
+            <div class="flip-card-back">
+              <img
+              src="2nd.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div><div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="charm">
+            <div class="flip-card-back">
+              <img
+              src="2nd.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="pika">
+            <div class="flip-card-back">
+              <img
+              src="3rd.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="pika">
+            <div class="flip-card-back">
+              <img
+              src="3rd.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)"data-click="poke">
+            <div class="flip-card-back">
+              <img
+              src="4th.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="poke">
+            <div class="flip-card-back">
+              <img
+              src="4th.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="snor">
+            <div class="flip-card-back">
+              <img
+              src="5th.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="snor">
+            <div class="flip-card-back">
+              <img
+              src="5th.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="squirt">
+            <div class="flip-card-back">
+              <img
+              src="6th.gif"
+              alt="Avatar"
+              style="width: 150px; height: 150px"
+              />
+            </div>
+            <div class="flip-card-front"></div>
+          </div>
+        </div>
+        <div class="flip-card" >
+          <div class="flip-card-inner" onclick="flip(event)" data-click="squirt">
+          <div class="flip-card-back">
+            <img
+            src="6th.gif"
+            alt="Avatar"
+            style="width: 150px; height: 150px"
+            />
+          </div>
+          <div class="flip-card-front"></div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="numbers">
+    <span>Score : </span>
+    <span id="score"></span>
+    
+    <span>Moves : </span>
+    <span id="moves"></span>
+
+    <button id = "reset" onclick="resetFunc()"> Reset</button>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>

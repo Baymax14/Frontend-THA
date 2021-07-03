@@ -1,0 +1,73 @@
+
+body{
+    background-color: rgb(221, 211, 211)    ;
+}
+
+.box{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    display:flex;
+    position:relative;
+    top: 450px;
+    left:70%
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.box:focus{
+    /* border-color:white; */
+    border:2px solid white;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.all{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(150, 108, 108);
+    border: 2px solid;
+}
+.all:hover{
+    opacity: 0.9;
+}
+
+.boxclicked{
+    background-color: rgb(32, 27, 102);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(20,auto);
+    justify-content: center;
+    height: 30%;
+    align-content: center;
+}
+
+.numbers{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+#booked{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 48%;
+    top: 25px;
+}
+#remaining{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bolder;
+    left: 59%;
+    top: 25px;
+}
