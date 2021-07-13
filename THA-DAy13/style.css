@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(150, 149, 148);
+    
+}
+
+#quote{
+    font-size: 30px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+}
+
+h1{
+    position: relative;
+    top: -190px;
+    color: gold;
+    
+}
