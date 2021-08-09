@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.CardContainer {
+  border: 10px solid;
+  height: 70vh;
+  width: 30vw;
+  overflow: auto;
+  padding: 0 20px;
+}
+.card {
+  text-align: justify;
+}
+.btn {
+  float: right;
+  border-radius: 5px;
+  padding: 5px;
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.151);
+}
+
+.noItem {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
